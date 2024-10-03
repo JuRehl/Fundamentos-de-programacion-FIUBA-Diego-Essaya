@@ -1,0 +1,12 @@
+Archivos binarios
+bytes ->cadenas
+|-> secuencia de bytes -> 8 bits-> 1 o 0
+open("rb) abrirlo en forma binaria por lo tanto escribe en bytes tmb
+b=cadena.encode() de cadena a byte
+b=cadena.decode() de byte a cadena
+  un arreglo de bytes-> b"numeros raros"
+Endianess te dice el orden, de arriba para abajo o visceversa es lo mismo
+"<i bigindian" ">i littleindian" (una vez que elijo uno se debe poner el mismo en todo el codigo)
+b=struct.pack(">i",113)  -> le dice a struct que quiero guardar el 113 en 4 bytes otro ejemplo ("2S1S,"ab","b")
+pack manda las cosas a bytes, unpac manda bytes a lo que en realidad eran (">i", b) b=bytes
+cadena con mas de un elemento s y le ponemos la longitud 3s, F por float por ejemplo una constante es formato=">i3sF" las cosas que vas a desempaquetar

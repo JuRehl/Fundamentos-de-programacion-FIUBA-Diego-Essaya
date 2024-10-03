@@ -1,0 +1,17 @@
+ejercicios vistos6.9(con try except), 11.1, 11.7
+
+tp2 -> diccionarios, archivos(de texto), manejo de excepciones, objetos(opcional), programa!!
+programa-> incio-fin, funciones adicionales bien declaradas, que no rompa
+EN el tp2 conviene utilizar el manejo de excepciones
+si vemos objetos es rpobable que tengamos que hacer raise(lanzar una excepcion)
+Los archivos se leen secuancialmente de inicio a fin
+Readline devuelve una sola linea, si es el final te da un caracter vacio
+NUNCA usar readlines porque automaticamente lee y guarda todo el archivo
+Los archivos son iterables
+el strip() te saca los saltos de linea,TABs y espacios de izq y der, lstrip() los de izq y rstrip() los de der
+recomendacion= usar variable.strip()
+utilizar w con cuidado ya que borra todo  el contenido del archivo
+No se puede accedar a las claves a partir de los valores -> for clave,valor in diccionario.items()
+Write no ingresa salto de linea ( en archivo.write())
+import csv tiene para procesar archivos de tipo csv (practicar csv.writer)
+IOError para agarrar todas las excepciones

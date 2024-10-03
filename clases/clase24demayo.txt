@@ -1,0 +1,21 @@
+Variables opcionales-> cant_a=0 , en otro caso queda el valor por defecto que se definio por parámetro
+Si es un parámetro mutable, se comparte en todas las llamadas recursivas
+ALGORITMOS DE ORDENAMIENTO
+Metodos:
+*Quicksort -> Agarra un pivote (siempre elegir el mismo: medio, primero, ultimo) y los ordena, esta ordenado si son dos elementos que ya fueron analizados
+    -CASO PROMEDIO -> (O(n.log2(n)))
+    -MEJOR CASO -> (O(n.log2(n)))
+    -PEOR CASO -> (ejemplo: cuando agarramos el primer elemento y la lista esta ordenada) (O(n²))
+*Mergesort -> divide las listas hasta tener el caso base, luego de eso ordena las listas de la misma forma que las divide
+divide constantemente las listas en 2 y por el proceso de mergear queda la nueva lista ordenada
+    -CASO PROMEDIO (O(n.log2(n)))
+    -PEOR CASO (O(n.log2(n)))
+    -MEJOR CASO (O(n.log2(n)))
+*Selección -> slecciono el menor de la lista y lo coloco al inicio, una vez que ya hay un inicio lo coloco al final de la lista parcial
+    -CASO PROMEDIO(O(n²))
+    -PEOR CASO (ejemplo:a la inversa que queremos)(O(n²))
+    -MEJOR CASO (Tarda lo mismo ya que tambien debe buscar el menor numero) (O(n²))
+*Inserción (el video) -> hay una lista ordenada y queremos insertar el elemento de forma ordenada
+    -Tener en cuenta CASO PROMEDIO(O(n²)) 
+    -PEOR CASO(ejemplo:a la inversa que queremos) (O(n²))
+    -MEJOR CASO(ejemplo:recorrer la lista una vez) (O(n))

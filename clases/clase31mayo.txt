@@ -1,0 +1,6 @@
+Lenguaje c
+int->enteros con signo
+unsigned int->enteros sin signo 
+long->acepta negativos
+unsigned long->enteros muy largos, positivos
+Sirve guardar mucha memoria por si hacemos strcpy de algo que sea mas largo

@@ -1,0 +1,2 @@
+valgrind-> por ejemplo indice invalido, si liberamos antes la memoria,
+ejercicio2 ->tenemos que simular un objeto
